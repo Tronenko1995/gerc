@@ -1,0 +1,13 @@
+.header {
+    position: relative;
+    &__panel {
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    }
+}
+
+// @media (max-width: 500px) {
+//     .header {
+//         position: relative;
+//     }
+// }

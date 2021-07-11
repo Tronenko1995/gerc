@@ -1,0 +1,76 @@
+.e-ticket {
+    display: flex;
+    justify-content: center;
+    background-color: #FFFFFF;
+    padding: 12px 0 21px 0;
+    &__wrap {
+        width: 950px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__info {
+        width: 440px;
+    }
+    &__title {
+        font-size: 36px;
+        line-height: 49px;
+        color: #1F1F1F;
+    }
+    &__text {
+        margin-top: 8px;
+        font-size: 16px;
+        line-height: 22px;
+        color: #1F1F1F;
+    }
+}
+
+@media (max-width: 1148px) {
+    .e-ticket {
+        &__wrap {
+            padding: 0 19px;
+        }
+    }
+}
+
+@media (max-width: 870px) {
+    .e-ticket {
+        &__info {
+            max-width: 333px;
+            width: auto;
+            margin-right: 10px;
+        }
+    }
+}
+
+@media (max-width: 650px) {
+    .e-ticket {
+        &__wrap {
+            flex-direction: column-reverse;
+        }
+        &__info {
+            max-width: unset;
+            width: 100%;
+            margin-right: 0;
+            margin-top: 32px;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .e-ticket {
+        &__wrap {
+            flex-direction: column-reverse;
+        }
+        &__info {
+            max-width: unset;
+            width: 100%;
+            margin-right: 0;
+            margin-top: 32px;
+        }
+        &__img {
+            width: 230px;
+            height: 230px;
+        }
+    }
+}

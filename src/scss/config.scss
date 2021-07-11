@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+        &:after,
+        &:before {
+            box-sizing: border-box;
+        }
+    }
+    ul {
+        list-style: none;
+    }
+    a {
+        text-decoration: none;
+    }
+    body {
+        // overflow: hidden;
+        font-family: 'Open Sans', sans-serif;
+        color: #000;
+        background-color: #FAFAFA;
+    }
+    .hide {
+        display: none !important;
+    }
+    .bg {
+        position: absolute;
+        pointer-events: none;
+        overflow: hidden;
+        width: 922px;
+        height: 890px;
+        &__image {
+            position: absolute;
+            width: 922px;
+            height: 890px;
+        }
+    }
