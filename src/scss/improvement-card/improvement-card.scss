@@ -1,0 +1,65 @@
+.improvement-card {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 127px;
+    &__wrap {
+        width: 1110px;
+    }
+    &__title {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 33px;
+        color: #1F1F1F;
+        text-align: center;
+    }
+    &__row {
+        margin-top: 94px;
+        display: flex;
+        align-items: center;
+    }
+    &__select {
+        background: #fff;
+        border-radius: 8px;
+        width: 255px;
+        height: 48px;
+        color: #000;
+        font-size: 16px;
+        line-height: 22px;
+        padding-left: 8px;
+        transition: .3s;
+        margin: 14px 0 10px;
+        border: 1px solid #1B73AA;
+        border-radius: 8px;
+        margin-right: 30px;
+    }
+    &__button {
+        font-family: 'Open Sans';
+        font-weight: 300;
+        background: #1B73AA;
+        border-radius: 33px;
+        font-size: 18px;
+        line-height: 25px;
+        color: #FFFFFF;
+        display: flex;
+        align-items: center;
+        padding: 8px 50px 8px 46px;
+        margin-right: 19px;
+        cursor: pointer;
+        transition: 0.3s;
+        &-svg {
+            margin-right: 9px;
+            &--improvement {
+                margin-right: 6px;
+            }
+        }
+        &:hover {
+            background: #10517B;
+        }
+        &.active {
+            background: #10517B;
+        }
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}

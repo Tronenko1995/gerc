@@ -62,6 +62,17 @@
                 right: 20px;
             }
         }
+        &--improvement {
+            padding: 13px 0;
+            &::after {
+                width: 16px;
+                height: 8px;
+                background-image: url('../../svg/choose.svg');
+                background-repeat: no-repeat;
+                background-size: 16px 8px;
+                right: 20px;
+            }
+        }
     }
     &__list {
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);

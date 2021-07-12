@@ -33,23 +33,26 @@
                 &:nth-child(1) {
                     top: 12px;
                     transform: rotate(-45deg);
-                    transition-duration: 0.2s, 0.2s;
-                    transition-delay: 0.2s, 0.2s;
-                    transition-property: bottom, transform;
+                    // transition-duration: 0.2s, 0.2s;
+                    // transition-delay: 0.2s, 0.2s;
+                    // transition-property: bottom, transform;
+                    transition: bottom, transform 0.2s, 0.2s 0.2s, 0.2s;
                 }
                 &:nth-child(2) {
                     top: 12px;
                     transform: rotate(-45deg);
-                    transition-duration: 0.2s, 0.2s;
-                    transition-delay: 0.2s, 0.2s;
-                    transition-property: bottom, transform;
+                    // transition-duration: 0.2s, 0.2s;
+                    // transition-delay: 0.2s, 0.2s;
+                    // transition-property: bottom, transform;
+                    transition: bottom, transform 0.2s, 0.2s 0.2s, 0.2s;
                 }
                 &:nth-child(3) {
                     top: 12px;
                     transform: rotate(45deg);
-                    transition-duration: 0.2s, 0.2s;
-                    transition-delay: 0.2s, 0.2s;
-                    transition-property: top, transform;
+                    // transition-duration: 0.2s, 0.2s;
+                    // transition-delay: 0.2s, 0.2s;
+                    // transition-property: top, transform;
+                    transition: top, transform 0.2s, 0.2s 0.2s, 0.2s;
                 }
             }
         }

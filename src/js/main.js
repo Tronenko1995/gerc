@@ -17,3 +17,23 @@ $('.jsBurger').on('click', function() {
     $(this).toggleClass('active');
     $('.jsNav').toggleClass('active');
 })
+
+$('.jsImprovement').on('click', function() {
+    $(this).toggleClass('active');
+    $('.jsComfortableBlock').toggleClass('hide');
+})
+
+$('.jsReplenishment').on('click', function() {
+    $(this).toggleClass('active');
+    $('.jsReplenishmentPointsBlock').toggleClass('hide');
+})
+
+$('.jsTab').on('click', function() {
+    if (!$(this).hasClass('active')) {
+        $('.jsTab').removeClass('active');
+        $(this).addClass('active');
+
+        $('.jsTabBlock').addClass('hide');
+        $(`.${$(this).data('tab')}`).removeClass('hide')
+    }
+})

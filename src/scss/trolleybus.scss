@@ -1,0 +1,65 @@
+.trolleybus {
+    display: flex;
+    justify-content: center;
+    margin: 68px 0 96px 0;
+    &__wrap {
+        width: 950px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__info {
+        width: 443px;
+    }
+    &__text {
+        margin-bottom: 33px;
+        font-size: 16px;
+        line-height: 150%;
+        color: #000000;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+@media (max-width: 1148px) {
+    .trolleybus {
+        &__wrap {
+            padding: 0 19px;
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    .trolleybus {
+        &__wrap {
+            flex-direction: column;
+        }
+        &__info {
+            display: flex;
+            width: auto;
+            margin-top: 51px;
+        }
+        &__text {
+            max-width: 350px;
+            margin-bottom: 0;
+            margin-right: 30px;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .trolleybus {
+        &__img {
+            width: 288px;
+            height: 307px;
+        }
+        &__info {
+            margin-top: 71px;
+            flex-direction: column;
+        }
+    }
+}
