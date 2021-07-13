@@ -1,0 +1,20 @@
+<svg width="221" height="346" viewBox="0 0 221 346" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="31.1113" y="48" width="158" height="158" rx="5" stroke="#1B73AA" stroke-width="2"/>
+<rect x="38.2471" y="55.1355" width="40.678" height="40.678" fill="#1B73AA" fill-opacity="0.5"/>
+<rect x="38.2471" y="158.187" width="40.678" height="40.678" fill="#1B73AA" fill-opacity="0.5"/>
+<rect x="38.2471" y="120.22" width="18.9831" height="18.9831" fill="#1B73AA" fill-opacity="0.5"/>
+<rect x="87.0605" y="76.8306" width="18.9831" height="18.9831" fill="#1B73AA" fill-opacity="0.5"/>
+<rect x="141.298" y="120.22" width="27.1186" height="16.2712" fill="#1B73AA" fill-opacity="0.5"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M122.315 177.17L122.315 120.22H100.62V120.221H87.0605V136.493H100.62L100.62 177.17H122.315Z" fill="#1B73AA" fill-opacity="0.5"/>
+<rect x="141.298" y="55.1355" width="40.678" height="40.678" fill="#1B73AA" fill-opacity="0.5"/>
+<rect x="141.298" y="158.187" width="40.678" height="40.678" fill="#1B73AA" fill-opacity="0.5"/>
+<rect x="1.11133" y="1" width="218" height="344" rx="7" stroke="#2C9CC5" stroke-width="2"/>
+<rect x="13.1113" y="13" width="195" height="289" rx="3" stroke="#2C9CC5" stroke-width="2"/>
+<path d="M73.1113 0H148.111C148.111 11.0457 139.157 20 128.111 20H93.1113C82.0656 20 73.1113 11.0457 73.1113 0Z" fill="#2C9CC5"/>
+<rect x="73.1113" y="320" width="74" height="7" rx="3.5" fill="#2C9CC5"/>
+<rect x="31.1113" y="233" width="158" height="40" rx="20" fill="#1B73AA" stroke="#2C9CC5" stroke-width="2"/>
+<path d="M118.111 261H103.839L100.352 241.821C100.31 241.591 100.188 241.382 100.008 241.232C99.8286 241.082 99.6018 241 99.3677 241H97.1113" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M105.111 266C106.492 266 107.611 264.881 107.611 263.5C107.611 262.119 106.492 261 105.111 261C103.731 261 102.611 262.119 102.611 263.5C102.611 264.881 103.731 266 105.111 266Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M118.111 266C119.492 266 120.611 264.881 120.611 263.5C120.611 262.119 119.492 261 118.111 261C116.731 261 115.611 262.119 115.611 263.5C115.611 264.881 116.731 266 118.111 266Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M102.93 256H118.624C119.092 256 119.546 255.836 119.905 255.536C120.265 255.235 120.508 254.819 120.592 254.358L122.111 246H101.111" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
