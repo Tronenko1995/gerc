@@ -49,5 +49,13 @@
 @media (max-width: 500px) {
     .header-panel {
         min-height: 67px;
+        &__wrap {
+            padding: 0 16px;
+        }
+        &__search {
+            &-input {
+                width: 125px;
+            }
+        }
     }
 }

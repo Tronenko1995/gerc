@@ -102,3 +102,16 @@
         }
     }
 }
+
+@media (max-width: 500px) {
+    .placement {
+        &__wrap {
+            padding: 0 16px;
+        }
+        &__location {
+            &-select {
+                width: 100%;
+            }
+        }
+    }
+}

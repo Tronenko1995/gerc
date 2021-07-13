@@ -60,6 +60,7 @@
 @media (max-width: 500px) {
     .e-ticket {
         &__wrap {
+            padding: 0 16px;
             flex-direction: column-reverse;
         }
         &__info {

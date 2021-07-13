@@ -53,6 +53,9 @@
 
 @media (max-width: 500px) {
     .trolleybus {
+        &__wrap {
+            padding: 0 16px;
+        }
         &__img {
             width: 288px;
             height: 307px;

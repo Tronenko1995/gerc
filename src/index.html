@@ -167,22 +167,28 @@
             <div class="improvement-card__wrap">
                 <h2 class="improvement-card__title">Поповнення карток</h2>
                 <div class="improvement-card__row">
-                    <div class="improvement-card__select select">
-                        <input class="select__input" type="hidden" name="">
-                        <div class="select__head select__head--improvement">Київ</div>
-                        <ul class="select__list select__list--location">
-                            <li class="select__item select__item--location" data-name="Kyiv">Київ</li>
-                            <li class="select__item select__item--location" data-name="Lviv">Львів</li>
-                        </ul>
+                    <div class="improvement-card__label">
+                        <p class="improvement-card__label-text">Виберіть місто</p>
+                        <div class="improvement-card__select select">
+                            <input class="select__input" type="hidden" name="">
+                            <div class="select__head select__head--improvement">Київ</div>
+                            <ul class="select__list select__list--location">
+                                <li class="select__item select__item--location" data-name="Kyiv">Київ</li>
+                                <li class="select__item select__item--location" data-name="Lviv">Львів</li>
+                            </ul>
+                        </div>
                     </div>
-                    <button class="improvement-card__button jsImprovement">
-                        <img class="improvement-card__button-svg improvement-card__button-svg--improvement" width="33" height="32" src="svg/paperPlane.svg" alt="">
-                        Поповнити online
-                    </button>
-                    <button class="improvement-card__button jsReplenishment">
-                        <img class="improvement-card__button-svg" width="33" height="32" src="svg/mapPipLine.svg" alt="">
-                        Пункти продажу карток
-                    </button>
+
+                    <div class="improvement-card__buttons">
+                        <button class="improvement-card__button jsImprovement">
+                            <img class="improvement-card__button-svg improvement-card__button-svg--improvement" width="33" height="32" src="svg/paperPlane.svg" alt="">
+                            Поповнити online
+                        </button>
+                        <button class="improvement-card__button jsReplenishment">
+                            <img class="improvement-card__button-svg" width="33" height="32" src="svg/mapPipLine.svg" alt="">
+                            Пункти продажу карток
+                        </button>
+                    </div>
                 </div>
                 <div class="comfortable-card jsComfortableBlock hide">
                     <div class="comfortable-card__block">
@@ -239,17 +245,19 @@
                     </button>
                 </div>
                 <div class="replenishment-points jsReplenishmentPointsBlock hide">
-                    <ul class="replenishment-points__tabs">
-                        <li class="replenishment-points__tabs-item active jsTab" data-tab="jsReplenishmentPointsGrid">
-                            <div class="replenishment-points__tabs-svg replenishment-points__tabs-svg--replenishment"></div>
-                            Точки поповнення</li>
-                        <li class="replenishment-points__tabs-item jsTab">
-                            <div class="replenishment-points__tabs-svg replenishment-points__tabs-svg--calculator"></div>
-                            Термінали</li>
-                        <li class="replenishment-points__tabs-item jsTab">
-                            <div class="replenishment-points__tabs-svg replenishment-points__tabs-svg--map"></div>
-                            Карта</li>
-                    </ul>
+                    <div class="replenishment-points__tabs-wrap">
+                        <ul class="replenishment-points__tabs">
+                            <li class="replenishment-points__tabs-item active jsTab" data-tab="jsReplenishmentPointsGrid">
+                                <div class="replenishment-points__tabs-svg replenishment-points__tabs-svg--replenishment"></div>
+                                Точки поповнення</li>
+                            <li class="replenishment-points__tabs-item jsTab">
+                                <div class="replenishment-points__tabs-svg replenishment-points__tabs-svg--calculator"></div>
+                                Термінали</li>
+                            <li class="replenishment-points__tabs-item jsTab">
+                                <div class="replenishment-points__tabs-svg replenishment-points__tabs-svg--map"></div>
+                                Карта</li>
+                        </ul>
+                    </div>
 
                     <div class="replenishment-points-grid jsReplenishmentPointsGrid jsTabBlock grid">
                         <ul class="grid__list">
