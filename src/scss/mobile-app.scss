@@ -1,0 +1,138 @@
+.mobile-app {
+    display: flex;
+    justify-content: center;
+    margin-top: 89px;
+    &__wrap {
+        width: 950px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__title {
+        text-align: center;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 33px;
+        color: #1F1F1F;
+    }
+    &__left {
+        margin-top: 30px;
+    }
+    &__right {
+        margin-left: 60px;
+    }
+    &__row {
+        display: flex;
+        margin-top: 67px;
+    }
+    &__img {
+        width: 420px;
+        height: 431px;
+    }
+    &__subtitle {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 25px;
+        &--download {
+            margin-top: 22px;
+        }
+    }
+    &__text {
+        margin-top: 22px;
+        font-size: 16px;
+        line-height: 27px;
+        width: 433px;
+    }
+    &__list {
+        margin-top: 19px;
+        list-style: inside;
+        margin-left: 5px;
+    }
+    &__item {
+        font-size: 16px;
+        margin-bottom: 6px;
+        span {
+            margin-left: -8px;
+        }
+        &::marker {
+            color: #10517B;
+            font-size: 16px;
+        }
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+    &__buttons {
+        margin-top: 17px;
+    }
+    &__button {
+        margin-right: 21px;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
+
+@media (max-width: 1148px) {
+    .mobile-app {
+        &__wrap {
+            padding: 0 19px;
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 960px) {
+    .mobile-app {
+        &__row {
+            flex-direction: column-reverse;
+            align-self: flex-start;
+            width: 100%;
+        }
+        &__left {
+            align-self: flex-start;
+            margin-top: 77px;
+        }
+        &__right {
+            margin-left: 0;
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .mobile-app {
+        margin-top: 86px;
+        &__wrap {
+            padding: 0 16px;
+        }
+        &__row {
+            margin-top: 50px;
+        }
+        &__left {
+            margin-top: 67px;
+        }
+    }
+}
+
+@media (max-width: 452px) {
+    .mobile-app {
+        &__img {
+            width: 100%;
+            height: auto;
+        }
+        &__text {
+            width: 100%;
+        }
+        &__buttons {
+            display: flex;
+        }
+        &__button {
+            margin-right: 18px;
+            &-img {
+                width: 135px;
+            }
+        }
+    }
+}
