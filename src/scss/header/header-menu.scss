@@ -10,7 +10,8 @@
     &__burger {
         display: none;
         width: 65px;
-        transition: all .3s ease;
+        // transition: all .3s ease;
+        transition: left 0.5s ease;
         position: relative;
         z-index: 1;
         top: 0;
@@ -25,8 +26,9 @@
         }
         &.active {
             top: 20px;
-            right: 20px;
+            left: 200px;
             position: fixed;
+            z-index: 101;
             .header-menu__burger-item {
                 margin-bottom: 0;
                 position: absolute;
@@ -36,7 +38,7 @@
                     // transition-duration: 0.2s, 0.2s;
                     // transition-delay: 0.2s, 0.2s;
                     // transition-property: bottom, transform;
-                    transition: bottom, transform 0.2s, 0.2s 0.2s, 0.2s;
+                    // transition: bottom, transform 0.2s, 0.2s 0.2s, 0.2s;
                 }
                 &:nth-child(2) {
                     top: 12px;
@@ -44,7 +46,7 @@
                     // transition-duration: 0.2s, 0.2s;
                     // transition-delay: 0.2s, 0.2s;
                     // transition-property: bottom, transform;
-                    transition: bottom, transform 0.2s, 0.2s 0.2s, 0.2s;
+                    // transition: bottom, transform 0.2s, 0.2s 0.2s, 0.2s;
                 }
                 &:nth-child(3) {
                     top: 12px;
@@ -52,7 +54,7 @@
                     // transition-duration: 0.2s, 0.2s;
                     // transition-delay: 0.2s, 0.2s;
                     // transition-property: top, transform;
-                    transition: top, transform 0.2s, 0.2s 0.2s, 0.2s;
+                    // transition: top, transform 0.2s, 0.2s 0.2s, 0.2s;
                 }
             }
         }
@@ -77,6 +79,25 @@
             padding: 10px 28px;
             background-color: transparent;
             cursor: pointer;
+        }
+    }
+    &__logo {
+        &--white {
+            display: none;
+            transition: all 0.5s ease;
+        }
+    }
+    &.active {
+        .header-menu {
+            &__logo {
+                &--white {
+                    display: block;
+                    position: fixed;
+                    z-index: 101;
+                    top: 28px;
+                    left: 101px;
+                }
+            }
         }
     }
 }
@@ -113,10 +134,19 @@
             left: 16px;
             width: 64px;
             height: 48px;
+            &--white {
+                width: 92px;
+                height: 68px;
+            }
         }
         &__burger {
             &__item {
                 width: 50px;
+            }
+            &.active {
+                top: 20px;
+                right: 20px;
+                left: unset;
             }
         }
         &__wrap {

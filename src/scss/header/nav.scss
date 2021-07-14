@@ -89,27 +89,46 @@
 
 @media (max-width: 768px) {
     .nav {
-        display: none;
-        width: 100%;
+        width: 274px;
+        z-index: 100;
+        background: #2C9CC5;
+
+        display: flex;
+        // width: 100%;
+        left: -274px;
         height: 100%;
         position: fixed;
         top: 0;
-        left: 0;
+        // left: 0;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        background: #fff;
+        transition: left 0.5s ease;
         &__item {
             margin-right: 0;
             margin-bottom: 20px;
             font-size: 20px;
+            color: #FFFFFF;
         }
         &__list {
             flex-direction: column;
         }
+        &__link {
+            color: #FFFFFF;
+        }
         // z-index: 1;
         &.active {
-            display: flex;
+            left: 0;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .nav {
+        left: -100%;
+        width: 100%;
+        &.active {
+            left: 0;
         }
     }
 }

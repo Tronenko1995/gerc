@@ -16,6 +16,7 @@ $('.select').on('click', '.select__item', function (e) {
 $('.jsBurger').on('click', function() {
     $(this).toggleClass('active');
     $('.jsNav').toggleClass('active');
+    $('.jsHeaderMenu').toggleClass('active');
 })
 
 $('.jsImprovement').on('click', function() {
