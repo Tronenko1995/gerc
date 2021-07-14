@@ -82,6 +82,7 @@
         }
     }
     &__logo {
+        z-index: 1;
         &--white {
             display: none;
             transition: all 0.5s ease;
