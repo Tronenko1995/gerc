@@ -104,12 +104,6 @@
         </section>
         <section class="placement">
             <div class="placement__wrap">
-                <!-- <div class="placement__location">    -->
-                    <!-- <select name="" id="" class="placement__location-select">
-                        <option class="placement__location-option" value="">Оберіть місто</option>
-                        <option value="Kyiv">Київ</option>
-                        <option value="Lviv">Львів</option>
-                    </select>                 -->
                     <div class="placement__location-select select">
                         <svg class="placement__location-svg" width="29" height="28" viewBox="0 0 29 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M14.1113 14.8748C16.0443 14.8748 17.6113 13.3078 17.6113 11.3748C17.6113 9.44176 16.0443 7.87476 14.1113 7.87476C12.1783 7.87476 10.6113 9.44176 10.6113 11.3748C10.6113 13.3078 12.1783 14.8748 14.1113 14.8748Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
@@ -152,7 +146,6 @@
                                     Інформація</a>
                         </li>
                     </ul>
-                <!-- </div> -->
             </div>
         </section>
         <section class="trolleybus">
@@ -254,7 +247,7 @@
                             <li class="replenishment-points__tabs-item jsTab">
                                 <div class="replenishment-points__tabs-svg replenishment-points__tabs-svg--calculator"></div>
                                 Термінали</li>
-                            <li class="replenishment-points__tabs-item jsTab">
+                            <li class="replenishment-points__tabs-item jsTab" data-tab="jsMap">
                                 <div class="replenishment-points__tabs-svg replenishment-points__tabs-svg--map"></div>
                                 Карта</li>
                         </ul>
@@ -293,6 +286,11 @@
     
                         </ul>
                     </div>
+
+                    <div class="map jsTabBlock jsMap hide">
+                        <iframe class="map__iframe" src="https://www.google.com/maps/d/embed?mid=1Ma_9w4vmnAfiVADLrRHh_2KygzijldHu&ll=49.43687013269503%2C27.005102167791&z=11" width="640" height="480"></iframe>
+                    </div>
+
                 </div>
             </div>
         </section>
@@ -518,7 +516,6 @@
     </main>
     <footer class="footer">
         <div class="footer__wrap">
-            <!-- <div class="footer__left"> -->
                 <a href="#">
                     <img class="footer__logo" src="img/white-logo.png" width="92" height="68">
                 </a>
@@ -545,7 +542,6 @@
                         </li>
                     </ul>
                 </div>
-            <!-- </div> -->
 
             <div class="footer__social">
                 <a href="#" class="footer__social-link">
